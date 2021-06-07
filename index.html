@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Countdown</title>
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="Normalize.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Open+Sans:wght@300&family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <article id="container-article">
+                <!-- Image -->
+                <section class="section sec-img">
+                    <img id="image" src="https://microsofters.com/wp-content/uploads/2021/06/evento-windows.jpg" alt="Picture of Windows 11" />
+                </section>
+                <section class="section sec-content">
+                    <!-- Container info -->
+                    <div class="container-info">
+                        <h1 id="title">Introducing Windows 11</h1>
+                        <h2 class="ending-time"></h2>
+                        <p class="desc">It is rumored that immediately after the event (or perhaps a few days after) we will be able to test the operating system in beta form or through Windows Insider. The launch is scheduled for fall 2021, probably during the month of October. Everything indicates that it will be a free update that every Windows 10 user can obtain.</p>
+                    </div>
+                    <!-- Countdown -->
+                    <div class="countdown">
+                        <!-- Block of days -->
+                        <div class="block-of-time block-days">
+                            <span class="number num-days"></span>
+                            <span class="block-desc-time desc-days">Days</span>
+                        </div>
+                        <!-- Block of hours -->
+                        <div class="block-of-time block-hours">
+                            <span class="number num-hours"></span>
+                            <span class="block-desc-time desc-hours">Hours</span>
+                        </div>
+                        <!-- Block of minutes -->
+                        <div class="block-of-time block-minutes">
+                            <span class="number num-minutes"></span>
+                            <span class="block-desc-time desc-minutes">Mins</span>
+                        </div>
+                        <!-- Block of seconds -->
+                        <div class="block-of-time block-seconds">
+                            <span class="number num-seconds"></span>
+                            <span class="block-desc-time desc-seconds">Secs</span>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        
+        <!-- JS -->
+        <script src="index.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
